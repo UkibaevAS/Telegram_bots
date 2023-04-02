@@ -3,7 +3,7 @@ from aiogram.types import Message
 from config.config import dp
 from config.FSM import gun_owner
 from work_data.google_sheets.read_data import price_prolongation, doc_4_lesson, day_and_time_4prolongation
-from keyboards.gun_owner_keyboards import kb_permit_extension
+from alternativa174.keyboards.gun_owner_keyboards import kb_permit_extension
 
 
 @dp.message_handler(text='Продлить разрешение на оружие', state=gun_owner.start)

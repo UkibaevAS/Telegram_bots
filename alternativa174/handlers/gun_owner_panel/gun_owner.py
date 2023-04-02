@@ -1,6 +1,6 @@
 from aiogram.types import Message
 
-from keyboards.gun_owner_keyboards import kb_gun_owner_start
+from alternativa174.keyboards.gun_owner_keyboards import kb_gun_owner_start
 from config.config import dp
 from config.FSM import gun_owner, start
 

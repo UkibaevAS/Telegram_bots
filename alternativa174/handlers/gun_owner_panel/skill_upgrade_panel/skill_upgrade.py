@@ -5,8 +5,8 @@ from config.FSM import gun_owner
 from work_data.google_sheets.read_data import schedule_individual_lessons, doc_4skill_upgrade, \
     price_4skill_upgrade, handgun_program, long_gun_program
 
-from keyboards.gun_owner_keyboards import kb_skill_upgrade, kb_weapon_selection
-from keyboards.individual_lesson_keyboards import keyboard_individual_lesson_start
+from alternativa174.keyboards.gun_owner_keyboards import kb_skill_upgrade, kb_weapon_selection
+from alternativa174.keyboards import keyboard_individual_lesson_start
 
 
 @dp.message_handler(text=['Повысить навыки владения оружием', 'Отмена', 'Нет'],

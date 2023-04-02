@@ -7,7 +7,7 @@ from config.FSM import admin
 from work_data.mongodb.read_data.read_data import read_data
 from work_data.mongodb.delete_data.delete_data import delete_data
 from working_with_calendar.selected_data import check_number_classes
-from keyboards.individual_lesson_keyboards import keyboard_choice_time
+from alternativa174.keyboards import keyboard_choice_time
 
 
 @dp.callback_query_handler(simple_cal_callback.filter(), state=admin.delete)

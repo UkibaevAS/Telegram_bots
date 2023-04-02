@@ -3,8 +3,8 @@ from aiogram.types import Message
 from config.config import bot, dp, ADMIN_ID
 from config.FSM import start, admin, gun_owner, not_gun_owner, individual_lesson
 from work_data.google_sheets.read_data import contacts, examination, doc_4_lesson
-from keyboards.start_keyboards import start_user_kb
-from keyboards.admin_keyboards import kb_admin_start
+from alternativa174.keyboards.start_keyboards import start_user_kb
+from alternativa174.keyboards import kb_admin_start
 
 
 @dp.message_handler(commands='start', state='*')

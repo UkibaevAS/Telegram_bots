@@ -6,8 +6,8 @@ from config.config import dp
 from config.FSM import admin
 from working_with_calendar.selected_data import check_number_classes, check_lesson_time
 from work_data.mongodb.write_data.write_data import write_data
-from keyboards.admin_keyboards import kb_admin_start
-from keyboards.individual_lesson_keyboards import keyboard_choice_time
+from alternativa174.keyboards import kb_admin_start
+from alternativa174.keyboards import keyboard_choice_time
 
 
 @dp.callback_query_handler(simple_cal_callback.filter(), state=admin.record)

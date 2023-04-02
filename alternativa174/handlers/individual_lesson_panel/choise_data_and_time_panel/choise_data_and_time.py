@@ -6,8 +6,8 @@ from config.config import dp
 from config.FSM import individual_lesson, start
 from working_with_calendar.selected_data import check_number_classes, check_lesson_time
 from work_data.mongodb.write_data.write_data import write_data
-from keyboards.individual_lesson_keyboards import keyboard_choice_time, keyboard_get_contact, keyboard_yes_not
-from keyboards.start_keyboards import start_user_kb
+from alternativa174.keyboards import keyboard_choice_time, keyboard_get_contact
+from alternativa174.keyboards.start_keyboards import start_user_kb
 
 
 @dp.message_handler(text=['Да', 'Отмена'], state=[individual_lesson.exercise, individual_lesson.choice_time])

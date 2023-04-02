@@ -4,7 +4,7 @@ from aiogram.dispatcher import FSMContext
 
 from config.config import dp
 from config.FSM import admin
-from keyboards.admin_keyboards import kb_admin_start
+from alternativa174.keyboards import kb_admin_start
 
 
 @dp.message_handler(text=['Узнать количество занятий', 'Внести запись о занятии',

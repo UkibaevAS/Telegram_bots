@@ -4,7 +4,7 @@ from config.config import dp
 from config.FSM import individual_lesson, start
 from work_data.google_sheets.read_data import price_individual_lesson, doc_individual_lesson, \
     schedule_individual_lessons
-from keyboards.individual_lesson_keyboards import keyboard_individual_lesson_start, keyboard_yes_not
+from alternativa174.keyboards import keyboard_individual_lesson_start, keyboard_yes_not
 
 
 @dp.message_handler(text=['Записаться на индивидуальное занятие', 'Нет'],

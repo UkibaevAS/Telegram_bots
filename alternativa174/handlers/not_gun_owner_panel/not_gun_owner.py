@@ -3,7 +3,7 @@ from aiogram import types
 from config.config import dp
 from config.FSM import not_gun_owner, start
 from work_data.google_sheets.read_data import doc_not_gun_owner, price_not_gun_owner, day_and_time_not_gun_owner
-from keyboards.not_gun_owners_keyboards import kb_not_gun_owner
+from alternativa174.keyboards.not_gun_owners_keyboards import kb_not_gun_owner
 
 
 @dp.message_handler(text='Первоначальное обучение на право владения оружием', state=start)
