@@ -1,0 +1,8 @@
+aiogram==2.24
+python-dotenv==0.21.0
+redis==4.4.2
+aioredis==2.0.1
+pandas==1.5.3
+aiogram_calendar==0.1.1
+pymongo==4.3.3
+

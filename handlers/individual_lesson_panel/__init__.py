@@ -1,0 +1,2 @@
+from handlers.individual_lesson_panel.individual_lesson import *
+from handlers.individual_lesson_panel.choise_data_and_time_panel.choise_data_and_time import *
